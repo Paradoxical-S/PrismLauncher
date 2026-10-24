@@ -938,6 +938,16 @@ SET(LAUNCHER_SOURCES
     ui/pages/instance/McResolver.h
     ui/pages/instance/ServerPingTask.cpp
     ui/pages/instance/ServerPingTask.h
+    ui/pages/instance/HostServerPage.cpp
+    ui/pages/instance/HostServerPage.h
+
+    # Dedicated servers hosted from an instance
+    server/HostedServer.cpp
+    server/HostedServer.h
+    server/ServerBuildTask.cpp
+    server/ServerBuildTask.h
+    server/ServerProperties.cpp
+    server/ServerProperties.h
 
     # GUI - global settings pages
     ui/pages/global/AccountListPage.cpp
